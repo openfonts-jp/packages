@@ -1,0 +1,78 @@
+version: 2
+jobs:
+  check:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: Validate JSON files
+          command: |
+            wget $OPENFONTS_PACKAGE_JSON_SCHEMA_URL -o /tmp/schema.json && \
+            npx ajv-cli -s /tmp/schema.json -d 'files/*.json'
+  build:
+    docker:
+      - image: openfontsjp/prepare_tool
+    steps:
+      - checkout
+      - run:
+          name: Build fonts
+          command: |
+            git diff-tree --no-commit-id --name-only -r `echo ${CIRCLE_COMPARE_URL} | cut -d/ -f 7` | \
+            xargs -I{} prepare_tool --output-dir ./output "{}"
+      - save_cache:
+          key: output-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ./output
+  upload:
+    docker:
+      - image: google/cloud-sdk
+    steps:
+      - restore_cache:
+          key: output-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Store Service Account
+          command: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
+      - run:
+          name: Authorization
+          command: |
+            gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+      - run:
+          name: Upload font gzip
+          command: |
+            gsutil \
+              -h "Content-Type:application/gzip" \
+              -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, no-transform, immutable" \
+              -m cp -r output/fonts \
+              "${BUCKET_ROOT_URL}/fonts"
+      - run:
+          name: Upload webfonts
+          command: |
+            gsutil -m cp -r output/webfonts "${BUCKET_ROOT_URL}/webfonts"
+            gsutil setmeta
+              -h "Content-Type:text/css" \
+              -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/**.css"
+            gsutil setmeta
+              -h "Content-Type:font/woff" \
+              -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/**.woff"
+            gsutil setmeta
+              -h "Content-Type:font/woff2" \
+              -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/**.woff2"
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - check
+      - build:
+          requires:
+            - check
+      - upload:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
