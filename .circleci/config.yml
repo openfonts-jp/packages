@@ -48,21 +48,21 @@ jobs:
             gsutil \
               -h "Content-Type:application/gzip" \
               -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, no-transform, immutable" \
-              -m cp -r output/fonts \
+              -m cp -r output/fonts/* \
               "${BUCKET_ROOT_URL}/fonts"
       - run:
           name: Upload webfonts
           command: |
-            gsutil -m cp -r output/webfonts "${BUCKET_ROOT_URL}/webfonts"
-            gsutil setmeta
+            gsutil -m cp -r output/webfonts/* "${BUCKET_ROOT_URL}/webfonts"
+            gsutil setmeta \
               -h "Content-Type:text/css" \
               -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, immutable" \
               "${BUCKET_ROOT_URL}/webfonts/**.css"
-            gsutil setmeta
+            gsutil setmeta \
               -h "Content-Type:font/woff" \
               -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
               "${BUCKET_ROOT_URL}/webfonts/**.woff"
-            gsutil setmeta
+            gsutil setmeta \
               -h "Content-Type:font/woff2" \
               -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
               "${BUCKET_ROOT_URL}/webfonts/**.woff2"
