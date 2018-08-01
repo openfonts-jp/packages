@@ -6,6 +6,11 @@ jobs:
     steps:
       - checkout
       - run:
+          command: |
+            if [ `git rev-parse origin/master` = $CIRCLE_SHA1 ]; then
+              exit 1
+            fi
+      - run:
           name: Validate JSON files
           command: |
             wget $OPENFONTS_PACKAGE_JSON_SCHEMA_URL -O /tmp/schema.json && \
