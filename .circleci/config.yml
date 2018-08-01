@@ -18,7 +18,7 @@ jobs:
       - run:
           name: Build fonts
           command: |
-            git diff-tree --no-commit-id --name-only -r $CIRCLE_SHA1 origin/master | \
+            git whatchanged --no-commit-id --name-only `echo ${CIRCLE_COMPARE_URL} | cut -d/ -f 7` | sort -u | \
             xargs -I{} prepare_tool --output-dir ./output "{}"
       - save_cache:
           key: output-{{ .Environment.CIRCLE_SHA1 }}
