@@ -22,7 +22,10 @@
   ],
   "files": [
     {
-      "from": "https://oscdl.ipa.go.jp/IPAexfont/ipaexm00301.zip"
+      "from": "https://oscdl.ipa.go.jp/IPAexfont/ipaexm00301.zip",
+      "fonts": {
+        "normal": "ipaexm.ttf"
+      }
     }
   ],
   "license": {
