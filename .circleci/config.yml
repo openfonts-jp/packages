@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Validate JSON files
           command: |
-            wget $OPENFONTS_PACKAGE_JSON_SCHEMA_URL -o /tmp/schema.json && \
+            wget $OPENFONTS_PACKAGE_JSON_SCHEMA_URL -O /tmp/schema.json && \
             npx ajv-cli -s /tmp/schema.json -d 'files/*.json'
   build:
     docker:
