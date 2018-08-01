@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           command: |
-            if [ `git rev-parse origin/master` = $CIRCLE_SHA1 ]; then
+            if [ -n $CIRCLE_PULL_REQUEST -a `git rev-parse origin/master` = $CIRCLE_SHA1 ]; then
               exit 1
             fi
       - run:
