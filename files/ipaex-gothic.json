@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
   "name": "IPAexGothic",
   "id": "ipaex-gothic",
   "version": "003.01",

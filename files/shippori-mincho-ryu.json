@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
   "id": "shippori-mincho-ryu",
   "name": "しっぽり明朝 流",
   "version": "1.001",

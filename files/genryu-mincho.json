@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
   "id": "genryu-mincho",
   "name": "源流明朝",
   "version": "1.001",

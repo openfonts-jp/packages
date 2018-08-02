@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
   "id": "mplus-2p",
   "name": "M+ 2p",
   "version": "063",

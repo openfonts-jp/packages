@@ -13,6 +13,6 @@
 
 |Env|Note|
 |:--|:--|
-|`OPENFONTS_PACKAGE_JSON_SCHEMA_URL`|`https://schemas.openfonts.jp/package/v01/schema.json`|
+|`OPENFONTS_PACKAGE_JSON_SCHEMA_URL`|`https://schemas.openfonts.jp/package/v02/schema.json`|
 |`GCLOUD_SERVICE_KEY`|See https://circleci.com/docs/2.0/google-auth/|
 |`BUCKET_ROOT_URL`|`gs://your-bucket`|
