@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "id": "genei-gothic-p",
+  "name": "源暎ゴシック P",
+  "version": "1.1a",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["Adobe Systems Incorporated", "おたもん"],
+  "files": [
+    {
+      "from": "https://okoneya.jp/font/GenEiGothicP-1.1.zip",
+      "fonts": {
+        "thin": "GenEiGothicP-ExtraLight.otf",
+        "extraLight": "GenEiGothicP-Light.otf",
+        "light": "GenEiGothicP-SemiLight.otf",
+        "normal": "GenEiGothicP-Regular.otf",
+        "medium": "GenEiGothicP-SemiBold.otf",
+        "bold": "GenEiGothicP-Bold.otf",
+        "black": "GenEiGothicP-Heavy.otf"
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2014-2015, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
+  "website": "https://okoneya.jp/font/genei-gothic.html"
+}

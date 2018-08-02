@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "id": "genei-gothic-p-kl",
+  "name": "源暎ゴシック P KL",
+  "version": "1.3",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["Adobe Systems Incorporated", "おたもん"],
+  "files": [
+    {
+      "from": "https://okoneya.jp/font/GenEiGothicKL-1.3.zip",
+      "fonts": {
+        "semiBold": "GenEiGothicP-H-KL.otf"
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2007-2018 Gutenberg Labo",
+    "Copyright (c) 2014-2015, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
+  "website": "https://okoneya.jp/font/genei-gothic-kl.html"
+}
