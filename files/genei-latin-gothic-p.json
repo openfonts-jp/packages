@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "id": "genei-latin-gothic-p",
+  "name": "源暎ラテゴ 詰",
+  "version": "2.1",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["Adobe Systems Incorporated", "おたもん"],
+  "files": [
+    {
+      "from": "https://okoneya.jp/font/GenEiLatin_v2.1.zip",
+      "fonts": {
+        "normal": {
+          "name": "GenEiLateGo_v2.ttc",
+          "number": 1
+        }
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (C) FONT 910",
+    "Copyright (c) 2003-2012, Philipp H. Poll",
+    "Copyright (c) 2008-2014, Classical Letter Project",
+    "Copyright 2013 Google Inc.",
+    "2018 (c) Fonticons, Inc.",
+    "Copyright (c) 2014-2018, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
+  "website": "https://okoneya.jp/font/genei-latin.html"
+}
