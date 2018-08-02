@@ -10,13 +10,13 @@
     {
       "from": "https://github.com/ButTaiwan/genryu-font/archive/b25a544c990efc872a82b915b55d677cdf20ab02.zip",
       "fonts": {
-        "extraLight": "GenRyuMinJP-ExtraLight.otf",
-        "light": "GenRyuMinJP-Light.otf",
-        "normal": "GenRyuMinJP-Regular.otf",
-        "medium": "GenRyuMinJP-Medium.otf",
-        "semiBold": "GenRyuMinJP-SemiBold.otf",
-        "bold": "GenRyuMinJP-Bold.otf",
-        "black": "GenRyuMinJP-Heavy.otf"
+        "extraLight": "GenRyuMinJP-ExtraLight.ttf",
+        "light": "GenRyuMinJP-Light.ttf",
+        "normal": "GenRyuMinJP-Regular.ttf",
+        "medium": "GenRyuMinJP-Medium.ttf",
+        "semiBold": "GenRyuMinJP-SemiBold.ttf",
+        "bold": "GenRyuMinJP-Bold.ttf",
+        "black": "GenRyuMinJP-Heavy.ttf"
       }
     }
   ],

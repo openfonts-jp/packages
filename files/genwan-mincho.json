@@ -10,10 +10,10 @@
     {
       "from": "https://github.com/ButTaiwan/genwan-font/archive/bc1a693f6edb47fca55819f8d034bbb5b90801a7.zip",
       "fonts": {
-        "light": "GenWanMinJP-Light.otf",
-        "normal": "GenWanMinJP-Regular.otf",
-        "medium": "GenWanMinJP-Medium.otf",
-        "semiBold": "GenWanMinJP-SemiBold.otf"
+        "light": "GenWanMinJP-Light.ttf",
+        "normal": "GenWanMinJP-Regular.ttf",
+        "medium": "GenWanMinJP-Medium.ttf",
+        "semiBold": "GenWanMinJP-SemiBold.ttf"
       }
     }
   ],
