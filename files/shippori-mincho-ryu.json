@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "id": "shippori-mincho-ryu",
+  "name": "しっぽり明朝 流",
+  "version": "1.001",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["Adobe Systems Incorporated", "But", "Fontdasu"],
+  "files": [
+    {
+      "from": "http://fontdasu.com/download/shippori.zip",
+      "fonts": {
+        "normal": "ShipporiMinchoRyu-Regular.otf"
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 But",
+    "Copyright (c) 2017 Fontdasu"
+  ],
+  "website": "http://fontdasu.com/1246"
+}
