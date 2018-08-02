@@ -23,8 +23,11 @@ jobs:
       - run:
           name: Build fonts
           command: |
-            git whatchanged --no-commit-id --name-only `echo ${CIRCLE_COMPARE_URL} | cut -d/ -f 7` | sort -u | \
-            xargs -I{} prepare_tool --output-dir ./output "{}"
+            FILES=$(git whatchanged --no-commit-id --name-only `echo ${CIRCLE_COMPARE_URL} | cut -d/ -f 7` | sort -u)
+            for FILE in $FILES; do
+              echo "Preparing $FILE"
+              prepare_tool --output-dir ./output "$FILE"
+            done
       - save_cache:
           key: output-{{ .Environment.CIRCLE_SHA1 }}
           paths:
