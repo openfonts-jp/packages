@@ -17,10 +17,6 @@
   "license": {
     "id": "Mplus"
   },
-  "copyrights": [
-    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
-    "Copyright (C) 2015 Fontna.com",
-    "Copyright (C) 2015 Kato Masashi"
-  ],
+  "copyrights": ["Copyright (C) 2002-2017 M+ FONTS PROJECT", "Copyright (C) 2015 Fontna.com, Kato Masashi"],
   "website": "http://www.fontna.com/blog/1706/"
 }
