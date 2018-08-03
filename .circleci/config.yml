@@ -60,15 +60,15 @@ jobs:
             gsutil -m cp -r output/webfonts/* "${BUCKET_ROOT_URL}/webfonts"
             for WEBFONT_DIR in output/webfonts/*; do
               DIR_NAME=$(basename $WEBFONT_DIR)
-              gsutil setmeta \
+              gsutil -m setmeta \
                 -h "Content-Type:text/css" \
                 -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, immutable" \
                 "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.css"
-              gsutil setmeta \
+              gsutil -m setmeta \
                 -h "Content-Type:font/woff" \
                 -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
                 "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.woff"
-              gsutil setmeta \
+              gsutil -m setmeta \
                 -h "Content-Type:font/woff2" \
                 -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
                 "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.woff2"
