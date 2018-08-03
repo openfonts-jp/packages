@@ -5,7 +5,7 @@
   "version": "2.1",
   "categories": ["Gothic"],
   "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Adobe Systems Incorporated", "おたもん"],
+  "owners": ["おたもん"],
   "files": [
     {
       "from": "https://okoneya.jp/font/GenEiLatin_v2.1.zip",

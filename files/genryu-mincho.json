@@ -5,7 +5,7 @@
   "version": "1.001",
   "categories": ["Mincho"],
   "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Adobe Systems Incorporated", "But"],
+  "owners": ["But"],
   "files": [
     {
       "from": "https://github.com/ButTaiwan/genryu-font/archive/b25a544c990efc872a82b915b55d677cdf20ab02.zip",

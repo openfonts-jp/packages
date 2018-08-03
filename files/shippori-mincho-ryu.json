@@ -5,7 +5,7 @@
   "version": "1.001",
   "categories": ["Mincho"],
   "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Adobe Systems Incorporated", "But", "Fontdasu"],
+  "owners": ["Fontdasu"],
   "files": [
     {
       "from": "http://fontdasu.com/download/shippori.zip",
