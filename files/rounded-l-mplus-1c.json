@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "id": "rounded-l-mplus-1c",
+  "name": "自家製 Rounded-L M+ 1c",
+  "version": "20150529",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["自家製フォント工房"],
+  "files": [
+    {
+      "from": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8572%2Frounded-l-mplus-20150529.zip",
+      "fonts": {
+        "thin": "rounded-l-mplus-1c-thin.ttf",
+        "light": "rounded-l-mplus-1c-light.ttf",
+        "normal": "rounded-l-mplus-1c-regular.ttf",
+        "medium": "rounded-l-mplus-1c-medium.ttf",
+        "bold": "rounded-l-mplus-1c-bold.ttf",
+        "extraBold": "rounded-l-mplus-1c-heavy.ttf",
+        "black": "rounded-l-mplus-1c-black.ttf"
+      }
+    }
+  ],
+  "license": {
+    "id": "Mplus"
+  },
+  "copyrights": ["Copyright (C) 2002-2017 M+ FONTS PROJECT", "Copyright (c) 2014-2015 自家製フォント工房 by MM"],
+  "website": "http://jikasei.me/font/rounded-mplus/about.html"
+}
