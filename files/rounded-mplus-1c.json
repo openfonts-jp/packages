@@ -2,7 +2,7 @@
   "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
   "id": "rounded-mplus-1c",
   "name": "自家製 Rounded M+ 1c",
-  "version": "063",
+  "version": "20150529",
   "categories": ["Gothic"],
   "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
   "owners": ["自家製フォント工房"],
