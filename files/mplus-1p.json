@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "id": "mplus-1p",
+  "name": "M+ 1p",
+  "version": "063",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["M+ FONTS PROJECT"],
+  "files": [
+    {
+      "from": "https://osdn.net/frs/redir.php?f=mplus-fonts%2F62344%2Fmplus-TESTFLIGHT-063.tar.xz",
+      "fonts": {
+        "thin": "mplus-1p-thin.ttf",
+        "light": "mplus-1p-light.ttf",
+        "normal": "mplus-1p-regular.ttf",
+        "medium": "mplus-1p-medium.ttf",
+        "bold": "mplus-1p-bold.ttf",
+        "extraBold": "mplus-1p-heavy.ttf",
+        "black": "mplus-1p-black.ttf"
+      }
+    }
+  ],
+  "license": {
+    "id": "Mplus"
+  },
+  "copyrights": ["Copyright (C) 2002-2017 M+ FONTS PROJECT"],
+  "website": "https://mplus-fonts.osdn.jp/"
+}
