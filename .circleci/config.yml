@@ -28,7 +28,7 @@ jobs:
               echo "Preparing $FILE"
               prepare_tool --output-dir ./output "$FILE"
             done
-          no_output_timeout: 30m
+          no_output_timeout: 1h
       - save_cache:
           key: output-{{ .Environment.CIRCLE_SHA1 }}
           paths:
