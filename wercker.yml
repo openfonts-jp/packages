@@ -1,0 +1,67 @@
+command-timeout: 180
+no-response-timeout: 30
+source-dir: .
+
+box:
+  id: openfontsjp/prepare_tool
+  cmd: /bin/bash
+  entrypoint: ''
+
+validate:
+  box: node:latest
+  steps:
+    - script:
+        name: Validate JSON files
+        code: |
+          wget $OPENFONTS_PACKAGE_JSON_SCHEMA_URL -O /tmp/schema.json && \
+          npx ajv-cli -s /tmp/schema.json -d 'files/*.json'
+
+build:
+  steps:
+    - script:
+        name: Build fonts
+        code: |
+          FILES=$(git diff-tree --no-commit-id --name-only -r $WERCKER_GIT_COMMIT | sort -u)
+          for FILE in $FILES; do
+            echo "Preparing $FILE"
+            prepare_tool --output-dir ./output "$FILE"
+          done
+
+upload:
+  box: google/cloud-sdk
+  steps:
+    - script:
+        name: Store Service Account
+        code: |
+          echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
+    - script:
+        name: Authorization
+        code: |
+          gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+    - script:
+        name: Upload font gzip
+        code: |
+          gsutil \
+            -h "Content-Type:application/gzip" \
+            -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, no-transform, immutable" \
+            -m cp -r output/fonts/* \
+            "${BUCKET_ROOT_URL}/fonts"
+    - script:
+        name: Upload webfonts
+        code: |
+          gsutil -m cp -r output/webfonts/* "${BUCKET_ROOT_URL}/webfonts"
+          for WEBFONT_DIR in output/webfonts/*; do
+            DIR_NAME=$(basename $WEBFONT_DIR)
+            gsutil -m setmeta \
+              -h "Content-Type:text/css" \
+              -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.css"
+            gsutil -m setmeta \
+              -h "Content-Type:font/woff" \
+              -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.woff"
+            gsutil -m setmeta \
+              -h "Content-Type:font/woff2" \
+              -h "Cache-Control:public, max-age=15768000, stale-while-revalidate=15768000, no-transform, immutable" \
+              "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.woff2"
+          done
