@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "id": "appli-mincho",
+  "name": "アプリ明朝",
+  "version": "1.00",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["フロップデザイン", "Kato Masashi"],
+  "files": [
+    {
+      "from": "http://flop.sakura.ne.jp/font/fontdata/AppliMincho.zip",
+      "fonts": {
+        "normal": "アプリ明朝.otf"
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 フロップデザイン, Kato Masashi"
+  ],
+  "website": "https://flopdesign.com/blog/font/5852/"
+}
