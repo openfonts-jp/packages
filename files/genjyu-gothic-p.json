@@ -8,7 +8,7 @@
   "owners": ["自家製フォント工房"],
   "files": [
     {
-      "from": "https://osdn.net/frs/chamber_redir.php?f=%2Fusers%2F8%2F8642%2Fgenjyuugothic-20150607.zip",
+      "from": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8642%2Fgenjyuugothic-20150607.zip",
       "fonts": {
         "thin": "GenJyuuGothic-P-ExtraLight.ttf",
         "extraLight": "GenJyuuGothic-P-Light.ttf",
