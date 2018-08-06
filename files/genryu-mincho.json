@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "id": "genryu-mincho",
+  "name": "源流明朝",
+  "version": "1.001",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "owners": ["But"],
+  "files": [
+    {
+      "from": "https://github.com/ButTaiwan/genryu-font/archive/b25a544c990efc872a82b915b55d677cdf20ab02.zip",
+      "fonts": {
+        "extraLight": "GenRyuMinJP-ExtraLight.ttf",
+        "light": "GenRyuMinJP-Light.ttf",
+        "normal": "GenRyuMinJP-Regular.ttf",
+        "medium": "GenRyuMinJP-Medium.ttf",
+        "semiBold": "GenRyuMinJP-SemiBold.ttf",
+        "bold": "GenRyuMinJP-Bold.ttf",
+        "black": "GenRyuMinJP-Heavy.ttf"
+      }
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 But"
+  ],
+  "website": "https://github.com/ButTaiwan/genryu-font"
+}
