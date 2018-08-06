@@ -35,9 +35,12 @@ upload:
         code: |
           echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
     - script:
-        name: Upload font gzip
+        name: Authorization
         code: |
           gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+    - script:
+        name: Upload font gzip
+        code: |
           gsutil \
             -h "Content-Type:application/gzip" \
             -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, no-transform, immutable" \
@@ -46,7 +49,6 @@ upload:
     - script:
         name: Upload webfonts
         code: |
-          gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
           gsutil -m cp -r output/webfonts/* "${BUCKET_ROOT_URL}/webfonts"
           for WEBFONT_DIR in output/webfonts/*; do
             DIR_NAME=$(basename $WEBFONT_DIR)
