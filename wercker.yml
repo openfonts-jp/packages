@@ -5,7 +5,7 @@ source-dir: .
 box:
   id: openfontsjp/prepare_tool
   cmd: /bin/bash
-  entrypoint: ''
+  entrypoint: /bin/bash -c
 
 validate:
   box: node:latest
