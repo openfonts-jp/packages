@@ -61,7 +61,7 @@ jobs:
             for WEBFONT_DIR in output/webfonts/*; do
               DIR_NAME=$(basename $WEBFONT_DIR)
               gsutil -m setmeta \
-                -h "Content-Type:text/css" \
+                -h "Content-Type:text/css; charset=utf-8" \
                 -h "Cache-Control:public, max-age=86400, stale-while-revalidate=86400, immutable" \
                 "${BUCKET_ROOT_URL}/webfonts/${DIR_NAME}/**.css"
               gsutil -m setmeta \
