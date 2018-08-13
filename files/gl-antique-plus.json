@@ -1,26 +1,37 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "gl-antique-plus",
   "name": "GL-アンチックPlus",
   "version": "2.017",
-  "categories": ["Others"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Gutenberg Labo"],
+  "categories": [
+    "Others"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (C) 2003-2009 Das Ende der Wildnis (http://heiden.daynight.jp/)",
+    "Copyright (C) 2008-2018 Gutenberg Labo (http://gutenberg.osdn.jp/), All rights reserved.",
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT (http://mplus-fonts.osdn.jp/)"
+  ],
   "files": [
     {
-      "from": "https://osdn.net/frs/redir.php?f=gutenberg%2F41452%2FGL-AntiquePlus.zip",
       "fonts": {
-        "normal": "GL-AntiquePlus.otf"
-      }
+        "normal": {
+          "name": "GL-AntiquePlus.otf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=gutenberg%2F41452%2FGL-AntiquePlus.zip"
     }
   ],
   "license": {
     "id": "Mplus"
   },
-  "copyrights": [
-    "Copyright (C) 2003-2009 Das Ende der Wildnis (http://heiden.daynight.jp/)",
-    "Copyright (C) 2008-2018 Gutenberg Labo (http://gutenberg.osdn.jp/), All rights reserved.",
-    "Copyright (C) 2002-2017 M+ FONTS PROJECT (http://mplus-fonts.osdn.jp/)"
+  "owners": [
+    "Gutenberg Labo"
   ],
   "website": "http://gutenberg.osdn.jp/ja/license.html"
 }

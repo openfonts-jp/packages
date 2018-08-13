@@ -1,31 +1,54 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genryu-mincho",
   "name": "源流明朝",
   "version": "1.001",
-  "categories": ["Mincho"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["But"],
+  "categories": [
+    "Mincho"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 But"
+  ],
   "files": [
     {
-      "from": "https://github.com/ButTaiwan/genryu-font/archive/b25a544c990efc872a82b915b55d677cdf20ab02.zip",
       "fonts": {
-        "extraLight": "GenRyuMinJP-ExtraLight.ttf",
-        "light": "GenRyuMinJP-Light.ttf",
-        "normal": "GenRyuMinJP-Regular.ttf",
-        "medium": "GenRyuMinJP-Medium.ttf",
-        "semiBold": "GenRyuMinJP-SemiBold.ttf",
-        "bold": "GenRyuMinJP-Bold.ttf",
-        "black": "GenRyuMinJP-Heavy.ttf"
-      }
+        "black": {
+          "name": "GenRyuMinJP-Heavy.ttf"
+        },
+        "bold": {
+          "name": "GenRyuMinJP-Bold.ttf"
+        },
+        "extraLight": {
+          "name": "GenRyuMinJP-ExtraLight.ttf"
+        },
+        "light": {
+          "name": "GenRyuMinJP-Light.ttf"
+        },
+        "medium": {
+          "name": "GenRyuMinJP-Medium.ttf"
+        },
+        "normal": {
+          "name": "GenRyuMinJP-Regular.ttf"
+        },
+        "semiBold": {
+          "name": "GenRyuMinJP-SemiBold.ttf"
+        }
+      },
+      "url": "https://github.com/ButTaiwan/genryu-font/archive/b25a544c990efc872a82b915b55d677cdf20ab02.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (c) 2017 But"
+  "owners": [
+    "But"
   ],
   "website": "https://github.com/ButTaiwan/genryu-font"
 }

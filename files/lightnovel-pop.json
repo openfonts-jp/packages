@@ -1,22 +1,37 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "lightnovel-pop",
   "name": "ラノベPOPフォント",
   "version": "1.00",
-  "categories": ["Others"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Fontna.com", "Kato Masashi"],
+  "categories": [
+    "Others"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (C) 2015 Fontna.com, Kato Masashi"
+  ],
   "files": [
     {
-      "from": "http://bgmsound.sakura.ne.jp/fontna/LightNovelPOP_FONT.zip",
       "fonts": {
-        "normal": "ラノベPOP.otf"
-      }
+        "normal": {
+          "name": "ラノベPOP.otf"
+        }
+      },
+      "url": "http://bgmsound.sakura.ne.jp/fontna/LightNovelPOP_FONT.zip"
     }
   ],
   "license": {
     "id": "Mplus"
   },
-  "copyrights": ["Copyright (C) 2002-2017 M+ FONTS PROJECT", "Copyright (C) 2015 Fontna.com, Kato Masashi"],
+  "owners": [
+    "Fontna.com",
+    "Kato Masashi"
+  ],
   "website": "http://www.fontna.com/blog/1706/"
 }

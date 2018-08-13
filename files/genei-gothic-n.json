@@ -1,31 +1,54 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genei-gothic-n",
   "name": "源暎ゴシック N",
   "version": "1.1a",
-  "categories": ["Gothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["おたもん"],
+  "categories": [
+    "Gothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2014-2015, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
   "files": [
     {
-      "from": "https://okoneya.jp/font/GenEiGothicN-1.1.zip",
       "fonts": {
-        "thin": "GenEiGothicN-ExtraLigh.otf",
-        "extraLight": "GenEiGothicN-Ligh.otf",
-        "light": "GenEiGothicN-SemiLight.otf",
-        "normal": "GenEiGothicN-Regular.otf",
-        "medium": "GenEiGothicN-SemiBold.otf",
-        "bold": "GenEiGothicN-Bold.otf",
-        "black": "GenEiGothicN-Heavy.otf"
-      }
+        "black": {
+          "name": "GenEiGothicN-Heavy.otf"
+        },
+        "bold": {
+          "name": "GenEiGothicN-Bold.otf"
+        },
+        "extraLight": {
+          "name": "GenEiGothicN-Ligh.otf"
+        },
+        "light": {
+          "name": "GenEiGothicN-SemiLight.otf"
+        },
+        "medium": {
+          "name": "GenEiGothicN-SemiBold.otf"
+        },
+        "normal": {
+          "name": "GenEiGothicN-Regular.otf"
+        },
+        "thin": {
+          "name": "GenEiGothicN-ExtraLigh.otf"
+        }
+      },
+      "url": "https://okoneya.jp/font/GenEiGothicN-1.1.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (c) 2014-2015, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  "owners": [
+    "おたもん"
   ],
   "website": "https://okoneya.jp/font/genei-gothic.html"
 }

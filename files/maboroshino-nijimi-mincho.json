@@ -1,25 +1,37 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "maboroshino-nijimi-mincho",
   "name": "幻ノにじみ明朝",
   "version": "1.00",
-  "categories": ["Mincho"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Fontna.com", "Kato Masashi"],
+  "categories": [
+    "Mincho"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 Fontna.com, Kato Masashi"
+  ],
   "files": [
     {
-      "from": "http://bgmsound.sakura.ne.jp/fontna/M-NijimiMincho.zip",
       "fonts": {
-        "normal": "幻ノにじみ明朝.otf"
-      }
+        "normal": {
+          "name": "幻ノにじみ明朝.otf"
+        }
+      },
+      "url": "http://bgmsound.sakura.ne.jp/fontna/M-NijimiMincho.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (c) 2017 Fontna.com, Kato Masashi"
+  "owners": [
+    "Fontna.com",
+    "Kato Masashi"
   ],
   "website": "http://www.fontna.com/blog/1912/"
 }

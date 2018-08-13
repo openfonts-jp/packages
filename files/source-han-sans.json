@@ -1,30 +1,53 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "source-han-sans",
   "name": "源ノ角ゴシック",
   "version": "1.004",
-  "categories": ["Gothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Adobe Systems Incorporated"],
+  "categories": [
+    "Gothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  ],
   "files": [
     {
-      "from": "https://github.com/adobe-fonts/source-han-sans/raw/1.004R/OTF/SourceHanSansJ.zip",
       "fonts": {
-        "thin": "SourceHanSans-ExtraLight.otf",
-        "extraLight": "SourceHanSans-Light.otf",
-        "light": "SourceHanSans-Normal.otf",
-        "normal": "SourceHanSans-Regular.otf",
-        "medium": "SourceHanSans-Medium.otf",
-        "bold": "SourceHanSans-Bold.otf",
-        "black": "SourceHanSans-Heavy.otf"
-      }
+        "black": {
+          "name": "SourceHanSans-Heavy.otf"
+        },
+        "bold": {
+          "name": "SourceHanSans-Bold.otf"
+        },
+        "extraLight": {
+          "name": "SourceHanSans-Light.otf"
+        },
+        "light": {
+          "name": "SourceHanSans-Normal.otf"
+        },
+        "medium": {
+          "name": "SourceHanSans-Medium.otf"
+        },
+        "normal": {
+          "name": "SourceHanSans-Regular.otf"
+        },
+        "thin": {
+          "name": "SourceHanSans-ExtraLight.otf"
+        }
+      },
+      "url": "https://github.com/adobe-fonts/source-han-sans/raw/1.004R/OTF/SourceHanSansJ.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  "owners": [
+    "Adobe Systems Incorporated"
   ],
   "website": "https://github.com/adobe-fonts/source-han-sans"
 }

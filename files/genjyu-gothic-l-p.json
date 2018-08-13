@@ -1,32 +1,55 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genjyu-gothic-l-p",
   "name": "源柔ゴシックL P",
   "version": "1.002.20150607",
-  "categories": ["MaruGothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["自家製フォント工房"],
+  "categories": [
+    "MaruGothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2014-2015 自家製フォント工房 by MM"
+  ],
   "files": [
     {
-      "from": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8643%2Fgenjyuugothic-l-20150607.zip",
       "fonts": {
-        "thin": "GenJyuuGothicL-P-ExtraLight.ttf",
-        "extraLight": "GenJyuuGothicL-P-Light.ttf",
-        "light": "GenJyuuGothicL-P-Normal.ttf",
-        "normal": "GenJyuuGothicL-P-Regular.ttf",
-        "medium": "GenJyuuGothicL-P-Medium.ttf",
-        "bold": "GenJyuuGothicL-P-Bold.ttf",
-        "black": "GenJyuuGothicL-P-Heavy.ttf"
-      }
+        "black": {
+          "name": "GenJyuuGothicL-P-Heavy.ttf"
+        },
+        "bold": {
+          "name": "GenJyuuGothicL-P-Bold.ttf"
+        },
+        "extraLight": {
+          "name": "GenJyuuGothicL-P-Light.ttf"
+        },
+        "light": {
+          "name": "GenJyuuGothicL-P-Normal.ttf"
+        },
+        "medium": {
+          "name": "GenJyuuGothicL-P-Medium.ttf"
+        },
+        "normal": {
+          "name": "GenJyuuGothicL-P-Regular.ttf"
+        },
+        "thin": {
+          "name": "GenJyuuGothicL-P-ExtraLight.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8643%2Fgenjyuugothic-l-20150607.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
-    "Copyright (c) 2014-2015 自家製フォント工房 by MM"
+  "owners": [
+    "自家製フォント工房"
   ],
   "website": "http://jikasei.me/font/genjyuu/"
 }

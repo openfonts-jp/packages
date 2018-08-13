@@ -1,35 +1,58 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "source-han-serif",
   "name": "源ノ明朝",
   "version": "1.001",
-  "categories": ["Mincho"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["Adobe Systems Incorporated"],
+  "categories": [
+    "Mincho"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  ],
   "files": [
     {
-      "from": "https://github.com/adobe-fonts/source-han-serif/raw/1.001R/OTF/SourceHanSerifJ_EL-M.zip",
       "fonts": {
-        "extraLight": "SourceHanSerif-ExtraLight.otf",
-        "light": "SourceHanSerif-Light.otf",
-        "normal": "SourceHanSerif-Regular.otf",
-        "medium": "SourceHanSerif-Medium.otf"
-      }
+        "extraLight": {
+          "name": "SourceHanSerif-ExtraLight.otf"
+        },
+        "light": {
+          "name": "SourceHanSerif-Light.otf"
+        },
+        "medium": {
+          "name": "SourceHanSerif-Medium.otf"
+        },
+        "normal": {
+          "name": "SourceHanSerif-Regular.otf"
+        }
+      },
+      "url": "https://github.com/adobe-fonts/source-han-serif/raw/1.001R/OTF/SourceHanSerifJ_EL-M.zip"
     },
     {
-      "from": "https://github.com/adobe-fonts/source-han-serif/raw/1.001R/OTF/SourceHanSerifJ_SB-H.zip",
       "fonts": {
-        "semiBold": "SourceHanSerif-SemiBold.otf",
-        "bold": "SourceHanSerif-Bold.otf",
-        "black": "SourceHanSerif-Heavy.otf"
-      }
+        "black": {
+          "name": "SourceHanSerif-Heavy.otf"
+        },
+        "bold": {
+          "name": "SourceHanSerif-Bold.otf"
+        },
+        "semiBold": {
+          "name": "SourceHanSerif-SemiBold.otf"
+        }
+      },
+      "url": "https://github.com/adobe-fonts/source-han-serif/raw/1.001R/OTF/SourceHanSerifJ_SB-H.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  "owners": [
+    "Adobe Systems Incorporated"
   ],
   "website": "https://github.com/adobe-fonts/source-han-serif"
 }

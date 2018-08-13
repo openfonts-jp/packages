@@ -1,25 +1,45 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "rounded-x-mplus-1m",
   "name": "自家製 Rounded-X M+ 1m",
   "version": "1.059.20150529",
-  "categories": ["MaruGothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["自家製フォント工房"],
+  "categories": [
+    "MaruGothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2014-2015 自家製フォント工房 by MM"
+  ],
   "files": [
     {
-      "from": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8573%2Frounded-x-mplus-20150529.zip",
       "fonts": {
-        "light": "rounded-x-mplus-1m-light.ttf",
-        "normal": "rounded-x-mplus-1m-regular.ttf",
-        "medium": "rounded-x-mplus-1m-medium.ttf",
-        "bold": "rounded-x-mplus-1m-bold.ttf"
-      }
+        "bold": {
+          "name": "rounded-x-mplus-1m-bold.ttf"
+        },
+        "light": {
+          "name": "rounded-x-mplus-1m-light.ttf"
+        },
+        "medium": {
+          "name": "rounded-x-mplus-1m-medium.ttf"
+        },
+        "normal": {
+          "name": "rounded-x-mplus-1m-regular.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8573%2Frounded-x-mplus-20150529.zip"
     }
   ],
   "license": {
     "id": "Mplus"
   },
-  "copyrights": ["Copyright (C) 2002-2017 M+ FONTS PROJECT", "Copyright (c) 2014-2015 自家製フォント工房 by MM"],
+  "owners": [
+    "自家製フォント工房"
+  ],
   "website": "http://jikasei.me/font/rounded-mplus/about.html"
 }

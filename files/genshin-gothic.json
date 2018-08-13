@@ -1,32 +1,55 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genshin-gothic",
   "name": "源真ゴシック",
   "version": "1.002.20150607",
-  "categories": ["Gothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["自家製フォント工房"],
+  "categories": [
+    "Gothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2014-2015 自家製フォント工房 by MM"
+  ],
   "files": [
     {
-      "from": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8637%2Fgenshingothic-20150607.zip",
       "fonts": {
-        "thin": "GenShinGothic-ExtraLight.ttf",
-        "extraLight": "GenShinGothic-Light.ttf",
-        "light": "GenShinGothic-Normal.ttf",
-        "normal": "GenShinGothic-Regular.ttf",
-        "medium": "GenShinGothic-Medium.ttf",
-        "bold": "GenShinGothic-Bold.ttf",
-        "black": "GenShinGothic-Heavy.ttf"
-      }
+        "black": {
+          "name": "GenShinGothic-Heavy.ttf"
+        },
+        "bold": {
+          "name": "GenShinGothic-Bold.ttf"
+        },
+        "extraLight": {
+          "name": "GenShinGothic-Light.ttf"
+        },
+        "light": {
+          "name": "GenShinGothic-Normal.ttf"
+        },
+        "medium": {
+          "name": "GenShinGothic-Medium.ttf"
+        },
+        "normal": {
+          "name": "GenShinGothic-Regular.ttf"
+        },
+        "thin": {
+          "name": "GenShinGothic-ExtraLight.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=%2Fusers%2F8%2F8637%2Fgenshingothic-20150607.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
-    "Copyright (c) 2014-2015 自家製フォント工房 by MM"
+  "owners": [
+    "自家製フォント工房"
   ],
   "website": "http://jikasei.me/font/genshin/"
 }

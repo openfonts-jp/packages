@@ -1,28 +1,41 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genei-gothic-n-kl",
   "name": "源暎ゴシック N KL",
   "version": "1.3",
-  "categories": ["Gothic"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["おたもん"],
-  "files": [
-    {
-      "from": "https://okoneya.jp/font/GenEiGothicKL-1.3.zip",
-      "fonts": {
-        "semiBold": "GenEiGothicN-H-KL.otf",
-        "black": "GenEiGothicN-U-KL.otf"
-      }
-    }
+  "categories": [
+    "Gothic"
   ],
-  "license": {
-    "id": "OFL-1.1"
-  },
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
   "copyrights": [
     "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
     "Copyright (C) 2002-2017 M+ FONTS PROJECT",
     "Copyright (c) 2007-2018 Gutenberg Labo",
     "Copyright (c) 2014-2015, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
+  "files": [
+    {
+      "fonts": {
+        "black": {
+          "name": "GenEiGothicN-U-KL.otf"
+        },
+        "semiBold": {
+          "name": "GenEiGothicN-H-KL.otf"
+        }
+      },
+      "url": "https://okoneya.jp/font/GenEiGothicKL-1.3.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": [
+    "おたもん"
   ],
   "website": "https://okoneya.jp/font/genei-gothic-kl.html"
 }

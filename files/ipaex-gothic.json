@@ -1,23 +1,36 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
-  "name": "IPAexゴシック",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "ipaex-gothic",
+  "name": "IPAexゴシック",
   "version": "003.01",
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "website": "https://ipafont.ipa.go.jp/",
+  "categories": [
+    "Gothic"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2015 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan."
+  ],
   "fallback": "IPAexGothic",
-  "copyrights": ["Copyright (c) 2015 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan."],
-  "categories": ["Gothic"],
-  "owners": ["IPA 独立行政法人情報処理推進機構"],
   "files": [
     {
-      "from": "https://oscdl.ipa.go.jp/IPAexfont/ipaexg00301.zip",
       "fonts": {
-        "normal": "ipaexg.ttf"
-      }
+        "normal": {
+          "name": "ipaexg.ttf"
+        }
+      },
+      "url": "https://oscdl.ipa.go.jp/IPAexfont/ipaexg00301.zip"
     }
   ],
   "license": {
     "id": "IPA"
-  }
+  },
+  "owners": [
+    "IPA 独立行政法人情報処理推進機構"
+  ],
+  "website": "https://ipafont.ipa.go.jp/"
 }

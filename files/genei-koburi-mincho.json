@@ -1,26 +1,37 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v01/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genei-koburi-mincho",
   "name": "源暎こぶり明朝",
   "version": "2.2a",
-  "categories": ["Mincho"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["おたもん"],
+  "categories": [
+    "Mincho"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Linux Libertine by Philipp H. Poll",
+    "Copyright (c) 2017, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
   "files": [
     {
-      "from": "https://okoneya.jp/font/GenEiKoburiMin-2.2a.zip",
       "fonts": {
-        "normal": "GenEiKoburiMin-R.otf"
-      }
+        "normal": {
+          "name": "GenEiKoburiMin-R.otf"
+        }
+      },
+      "url": "https://okoneya.jp/font/GenEiKoburiMin-2.2a.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Linux Libertine by Philipp H. Poll",
-    "Copyright (c) 2017, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  "owners": [
+    "おたもん"
   ],
   "website": "https://okoneya.jp/font/genei-koburimin.html"
 }

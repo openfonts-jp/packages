@@ -1,28 +1,45 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genwan-mincho",
   "name": "源雲明朝",
   "version": "1.001",
-  "categories": ["Mincho"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["But"],
+  "categories": [
+    "Mincho"
+  ],
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2017 But"
+  ],
   "files": [
     {
-      "from": "https://github.com/ButTaiwan/genwan-font/archive/bc1a693f6edb47fca55819f8d034bbb5b90801a7.zip",
       "fonts": {
-        "light": "GenWanMinJP-Light.ttf",
-        "normal": "GenWanMinJP-Regular.ttf",
-        "medium": "GenWanMinJP-Medium.ttf",
-        "semiBold": "GenWanMinJP-SemiBold.ttf"
-      }
+        "light": {
+          "name": "GenWanMinJP-Light.ttf"
+        },
+        "medium": {
+          "name": "GenWanMinJP-Medium.ttf"
+        },
+        "normal": {
+          "name": "GenWanMinJP-Regular.ttf"
+        },
+        "semiBold": {
+          "name": "GenWanMinJP-SemiBold.ttf"
+        }
+      },
+      "url": "https://github.com/ButTaiwan/genwan-font/archive/bc1a693f6edb47fca55819f8d034bbb5b90801a7.zip"
     }
   ],
   "license": {
     "id": "OFL-1.1"
   },
-  "copyrights": [
-    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
-    "Copyright (c) 2017 But"
+  "owners": [
+    "But"
   ],
   "website": "https://github.com/ButTaiwan/genwan-font"
 }

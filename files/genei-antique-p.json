@@ -1,25 +1,17 @@
 {
-  "$schema": "https://schemas.openfonts.jp/package/v02/schema.json",
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
   "id": "genei-antique-p",
   "name": "源暎アンチック 詰",
   "version": "4.2",
-  "categories": ["Others"],
-  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
-  "owners": ["おたもん"],
-  "files": [
-    {
-      "from": "https://okoneya.jp/font/GenEiAntique-4.2.zip",
-      "fonts": {
-        "normal": {
-          "name": "GenEiAntique_v4.ttc",
-          "number": 1
-        }
-      }
-    }
+  "categories": [
+    "Others"
   ],
-  "license": {
-    "id": "OFL-1.1"
-  },
+  "characters": [
+    "Alphabets",
+    "Hiragana",
+    "Katakana",
+    "Kanji"
+  ],
   "copyrights": [
     "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
     "Copyright (c) 2014 自家製フォント工房 by MM.",
@@ -29,6 +21,23 @@
     "Copyright 2013 Google Inc.",
     "2018 (c) Fonticons, Inc.",
     "Copyright (c) 2014-2016, おたもん, with Reserved Font Name '源暎' and 'GenEi'."
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "GenEiAntique_v4.ttc",
+          "number": 1
+        }
+      },
+      "url": "https://okoneya.jp/font/GenEiAntique-4.2.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": [
+    "おたもん"
   ],
   "website": "https://okoneya.jp/font/genei-latin.html"
 }
