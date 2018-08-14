@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "f910-shin-comic",
+  "name": "F910新コミック体",
+  "version": "2.04",
+  "categories": ["Others"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": ["Copyright (c) 2014, 2015 Adobe Systems Incorporated", "Copyright (c) 2014 FONT 910"],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "f910-shin-comic-2.04.otf"
+        }
+      },
+      "url": "http://www.font910.jp/freefont_i6wiwk5/f910-shin-comic-2.04.zip"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["FONT 910"],
+  "website": "http://www.font910.jp/font-list/conposite-comic.html"
+}
