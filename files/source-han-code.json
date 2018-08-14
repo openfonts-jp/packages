@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "source-han-code",
+  "name": "源ノ角ゴシック Code",
+  "version": "2.011",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014-2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  ],
+  "files": [
+    {
+      "fonts": {
+        "black": {
+          "name": "SourceHanCodeJP-Heavy.otf"
+        },
+        "bold": {
+          "name": "SourceHanCodeJP-Bold.otf"
+        },
+        "semiBold": {
+          "name": "SourceHanCodeJP-SemiBold.otf"
+        },
+        "medium": {
+          "name": "SourceHanCodeJP-Medium.otf"
+        },
+        "normal": {
+          "name": "SourceHanCodeJP-Regular.otf"
+        },
+        "light": {
+          "name": "SourceHanCodeJP-Light.otf"
+        },
+        "extraLight": {
+          "name": "SourceHanCodeJP-ExtraLight.otf"
+        }
+      },
+      "url": "https://github.com/adobe-fonts/source-han-code-jp/archive/2.011R.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["Adobe Systems Incorporated"],
+  "website": "https://github.com/adobe-fonts/source-han-code-jp"
+}
