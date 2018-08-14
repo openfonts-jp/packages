@@ -1,5 +1,5 @@
 command-timeout: 60
-no-response-timeout: 30
+no-response-timeout: 60
 source-dir: .
 
 box:
