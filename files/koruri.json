@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "koruri",
+  "name": "Koruri",
+  "version": "20161105",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2011 Google Corporation",
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2016 lindwurm"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "bold": {
+          "name": "Koruri-Bold.ttf"
+        },
+        "extraBold": {
+          "name": "Koruri-Extrabold.ttf"
+        },
+        "medium": {
+          "name": "Koruri-Semibold.ttf"
+        },
+        "normal": {
+          "name": "Koruri-Regular.ttf"
+        },
+        "light": {
+          "name": "Koruri-Light.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=koruri%2F66647%2FKoruri-20161105.tar.xz"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["lindwurm"],
+  "website": "https://koruri.github.io/"
+}
