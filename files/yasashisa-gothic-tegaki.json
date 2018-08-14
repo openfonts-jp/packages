@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "yasashisa-gothic-tegaki",
+  "name": "やさしさゴシック手書き",
+  "version": "1.00",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (C) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2015 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (C) 2014 Fontna.com"
+  ],
+  "fallback": "IPAGothic",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "やさしさゴシック手書き.otf"
+        }
+      },
+      "url": "http://bgmsound.sakura.ne.jp/fontna/YasashisaGothic-TEGAKI.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["Fontna.com"],
+  "website": "http://fontna.com/freefont/?p=40"
+}
