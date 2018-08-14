@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "kokoro-mincho",
+  "name": "こころ明朝",
+  "version": "1.00",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2012 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (c) 2012 Typing Art（中井良尚）"
+  ],
+  "fallback": "IPAexMincho",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "Kokoro.otf"
+        }
+      },
+      "url": "https://typingart.net/fontdata/kokoro.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["Typing Art", "中井良尚"],
+  "website": "https://typingart.net/?p=46"
+}
