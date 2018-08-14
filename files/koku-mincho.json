@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "koku-mincho",
+  "name": "刻明朝",
+  "version": "1.00",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (c) 2014 フリーフォントの樹"
+  ],
+  "fallback": "IPAexMincho",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "font_1_kokumr_1.00_rls.ttf"
+        }
+      },
+      "url": "http://freefonts.jp/dl_jajhoi4kagstw/ki_kokumin.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["フリーフォントの樹"],
+  "website": "http://freefonts.jp/font-koku-min.html"
+}
