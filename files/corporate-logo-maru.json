@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "corporate-logo-maru",
+  "name": "コーポレート・ロゴ丸",
+  "version": "0.5",
+  "categories": ["MaruGothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated",
+    "Copyright (c) 2014 自家製フォント工房 by MM.",
+    "Copyright (c) 2015 logotype.jp"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "bold": {
+          "name": "corpmarugo_v1.ttf"
+        }
+      },
+      "url": "http://logotype.jp/wp-content/uploads/2018/05/logofont-b_1-6wljlw5.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["logotype.jp"],
+  "website": "http://logotype.jp/font-corpmaru.html"
+}
