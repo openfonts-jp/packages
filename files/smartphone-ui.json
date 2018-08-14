@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "smartphone-ui",
+  "name": "スマートフォントUI",
+  "version": "1.00",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2003-2015 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (c) 2015 フロップデザイン, Kato Masashi"
+  ],
+  "fallback": "IPAexGothic",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "03スマートフォントUI.otf"
+        }
+      },
+      "url": "http://flop.sakura.ne.jp/font/fontdata/SmartFontUI.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["フロップデザイン", "Kato Masashi"],
+  "website": "https://www.flopdesign.com/freefont/smartfont.html"
+}
