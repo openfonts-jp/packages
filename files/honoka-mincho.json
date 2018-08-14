@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "honoka-mincho",
+  "name": "ほのか明朝",
+  "version": "1.00",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2013 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (c) 2014 HONOKA Project"
+  ],
+  "fallback": "IPAexMincho",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "font_1_honokamin.ttf"
+        }
+      },
+      "url": "http://font.gloomy.jp/dl-font-s5a4ik5w/honoka-min.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["HONOKA Project"],
+  "website": "http://font.gloomy.jp/honoka-mincho-dl.html"
+}
