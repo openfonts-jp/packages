@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "bokutachino-gothic-2",
+  "name": "ぼくたちのゴシック2",
+  "version": "1.01",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": ["Copyright (c) 2014, 2015 Adobe Systems Incorporated", "Copyright (c) 2014 フォントポ"],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "Boku2-Regular.otf"
+        }
+      },
+      "url": "https://fontopo.com/fontdata/boku2r.zip"
+    },
+    {
+      "fonts": {
+        "normal": {
+          "name": "Boku2-Bold.otf"
+        }
+      },
+      "url": "https://fontopo.com/fontdata/boku2b.zip"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["フォントポ"],
+  "website": "https://fontopo.com/?p=94"
+}
