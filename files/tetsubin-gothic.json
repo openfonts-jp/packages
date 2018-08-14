@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "tetsubin-gothic",
+  "name": "鉄瓶ゴシック",
+  "version": "1.00",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": ["Copyright (c) 2014, 2015 Adobe Systems Incorporated ", "Copyright (c) 2014 Fontna.com"],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "07鉄瓶ゴシック.otf"
+        }
+      },
+      "url": "http://bgmsound.sakura.ne.jp/fontna/tetsubin-gothic.zip"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["Fontna.com"],
+  "website": "http://fontna.com/freefont/?p=12"
+}
