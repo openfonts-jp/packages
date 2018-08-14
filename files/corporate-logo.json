@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "corporate-logo",
+  "name": "コーポレート・ロゴ",
+  "version": "1.10",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated",
+    "Copyright (c) 2014 自家製フォント工房 by MM.",
+    "Copyright (c) 2015 M+ FONTS PROJECT",
+    "Copyright (c) 2015 logotype.jp"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "logotypejp_mp_m_1.1.ttf"
+        }
+      },
+      "url": "http://logotype.jp/wp-content/uploads/2015/12/logofont-m_1.1-ah9kl7yha.zip"
+    },
+    {
+      "fonts": {
+        "bold": {
+          "name": "logotypejp_mp_b_1.1.ttf"
+        }
+      },
+      "url": "http://logotype.jp/wp-content/uploads/2015/12/logofont-b_1.1-ah9kl7yha.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["logotype.jp"],
+  "website": "http://logotype.jp/corporate-logo-font-dl.html"
+}
