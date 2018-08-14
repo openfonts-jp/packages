@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "koku-gothic",
+  "name": "刻ゴシック",
+  "version": "1.15",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2014 フリーフォントの樹"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "font_1_kokugl_1.15_rls.ttf"
+        }
+      },
+      "url": "http://freefonts.jp/dl_jajhoi4kagstw/ki_kokugo.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["フリーフォントの樹"],
+  "website": "http://freefonts.jp/font-koku-go.html"
+}
