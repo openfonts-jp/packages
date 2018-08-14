@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "ume-gothic-ui",
+  "name": "梅UIゴシック",
+  "version": "670",
+  "categories": ["Gothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": ["Copyright (c) 2017 蓬莱和多流"],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "ume-ugo4.ttf"
+        },
+        "medium": {
+          "name": "ume-ugo5.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=ume-font%2F22212%2Fumefont_670.tar.xz"
+    }
+  ],
+  "license": {
+    "id": "Mplus"
+  },
+  "owners": ["蓬莱和多流"],
+  "website": "https://ja.osdn.net/projects/ume-font/"
+}
