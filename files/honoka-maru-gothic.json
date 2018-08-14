@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "honoka-maru-gothic",
+  "name": "ほのか丸ゴシック",
+  "version": "1.10",
+  "categories": ["MaruGothic"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated",
+    "Copyright (c) 2002-2017 M+ FONTS PROJECT",
+    "Copyright (c) 2014-2015 自家製フォント工房 by MM",
+    "Copyright (c) 2014 HONOKA Project"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "font_1_honokamarugo_1.1.ttf"
+        }
+      },
+      "url": "http://font.gloomy.jp/dl-font-s5a4ik5w/honoka-marugo.zip"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["HONOKA Project"],
+  "website": "http://font.gloomy.jp/honoka-maru-gothic-dl.html"
+}
