@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "hanazono-mincho",
+  "name": "花園明朝",
+  "version": "20170904",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2013, GlyphWiki Project (kamichi@ic.daito.ac.jp), with Reserved Font Name \"Hanazono Font\", \"HanaMinA\", \"HanaMinB\",\"花園フォント\", \"花園明朝A\", and \"花園明朝B\"."
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "HanaMinA.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=hanazono-font%2F68253%2Fhanazono-20170904.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["GlyphWiki Project"],
+  "website": "http://fonts.jp/hanazono/"
+}
