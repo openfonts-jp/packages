@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "corporate-mincho",
+  "name": "コーポレート明朝",
+  "version": "1.00",
+  "categories": ["Mincho"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "Copyright (c) 2015 logotype.jp"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "logotypejp_corpmin.ttf"
+        }
+      },
+      "url": "http://logotype.jp/wp-content/uploads/2015/12/logofont-m_1.1-ah9kl7yha.zi"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["logotype.jp"],
+  "website": "http://logotype.jp/osusume-font-corpmin.html"
+}
