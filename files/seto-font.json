@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "seto-font",
+  "name": "瀬戸フォント",
+  "version": "6.20",
+  "categories": ["Others"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": ["Copyright (c) 2014 瀬戸のぞみ"],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "setofont.ttf"
+        }
+      },
+      "url": "https://osdn.net/frs/redir.php?f=setofont%2F61995%2Fsetofont_v_6_20.zip"
+    }
+  ],
+  "license": {
+    "id": "OFL-1.1"
+  },
+  "owners": ["瀬戸のぞみ"],
+  "website": "https://ja.osdn.net/projects/setofont/"
+}
