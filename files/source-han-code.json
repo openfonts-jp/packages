@@ -18,13 +18,13 @@
           "name": "SourceHanCodeJP-Bold.otf"
         },
         "semiBold": {
-          "name": "SourceHanCodeJP-SemiBold.otf"
-        },
-        "medium": {
           "name": "SourceHanCodeJP-Medium.otf"
         },
-        "normal": {
+        "medium": {
           "name": "SourceHanCodeJP-Regular.otf"
+        },
+        "normal": {
+          "name": "SourceHanCodeJP-Normal.otf"
         },
         "light": {
           "name": "SourceHanCodeJP-Light.otf"
