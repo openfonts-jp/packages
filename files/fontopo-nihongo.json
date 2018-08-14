@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "fontopo-nihongo",
+  "name": "フォントポにほんご",
+  "version": "1.10",
+  "categories": ["Others"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2012 IPA 独立行政法人情報処理推進機構 Information-technology Promotion Agency, Japan.",
+    "Copyright (C) 2012 フォントポ"
+  ],
+  "fallback": "IPAexGothic",
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "FontopoNIHONGO.otf"
+        }
+      },
+      "url": "https://fontopo.com/fontdata/nihongo.zip"
+    }
+  ],
+  "license": {
+    "id": "IPA"
+  },
+  "owners": ["フォントポ"],
+  "website": "https://fontopo.com/?p=89"
+}
