@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.openfonts.jp/package/v0.0.3/schema.json",
+  "id": "kei-font",
+  "name": "けいふぉんと",
+  "version": "1.01",
+  "categories": ["Others"],
+  "characters": ["Alphabets", "Hiragana", "Katakana", "Kanji"],
+  "copyrights": [
+    "Copyright (c) 2014, 2015 Adobe Systems Incorporated",
+    "Copyright (c) 2014 自家製フォント工房 by MM.",
+    "Copyright (c) 2014 M+ FONTS PROJECT",
+    "Copyright (c) 2014 Do-Font"
+  ],
+  "files": [
+    {
+      "fonts": {
+        "normal": {
+          "name": "keifont.ttf"
+        }
+      },
+      "url": "http://font.sumomo.ne.jp/fontdata-c2157415/k-font.zip"
+    }
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "owners": ["Do-Font"],
+  "website": "http://font.sumomo.ne.jp/font_1.html"
+}
