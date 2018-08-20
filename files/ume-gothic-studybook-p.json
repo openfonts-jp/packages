@@ -11,9 +11,6 @@
       "fonts": {
         "normal": {
           "name": "ume-pgs4.ttf"
-        },
-        "medium": {
-          "name": "ume-pgs5.ttf"
         }
       },
       "url": "https://osdn.net/frs/redir.php?f=ume-font%2F22212%2Fumefont_670.tar.xz"
